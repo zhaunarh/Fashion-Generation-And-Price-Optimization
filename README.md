@@ -27,7 +27,7 @@ Generative models like DCGANs can automate image generation based on learned dis
 
 2. **Price Prediction Model**
    - Convert images to tensors
-   - Train regression models (Linear, XGBoost, Neural Nets) to predict prices from tensors
+   - Train 7 regression models (Linear regression, Decision Tree, Random Forest Regression, Gradient Boost Regression, Support Vector Regression, K-Neighbours Regression, Lasso Regression)) to predict prices from tensors
    - Optimize model performance using metrics like RMSE and R²
 
 3. **Integration**
